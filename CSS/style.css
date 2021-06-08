@@ -1,0 +1,43 @@
+/* style the html */
+html
+{
+    font-size: 1em; /* use of ems in order to provide ratio with different screen sizes */
+    font-family: "Roboto", sans-serif; /* use of Roboto from Google fonts */
+    background-color: #FFCC33; /* Gold background */
+}
+
+/* stylize the heading or title of the website */
+h1
+{
+    margin: 0;
+    padding: 2em 0;
+    font-size: 3em;
+    text-align: center;
+    color: #006633; /* GMU green color */
+    text-shadow: 3px 3px 1px /*30em 30em 10em*/ black;
+}
+
+/* stylize the paragraphs and the lists elements */
+p, li
+{
+    font-size: 2em;
+    line-height: 2;
+    letter-spacing: 4%; /* allow for readability */
+}
+
+/* stylize the body of the website */
+body
+{
+    width: /*600px;*/ 50em;  /* width of the body */
+    margin: 0 auto;
+    background-color: #9D7F00; /* Dark Goldenrod */
+    padding: /*0 20px 20px 20px;*/ 0 2em 2em 2em; /* padding around the text */
+    border: 1em solid turquoise; /* Dark Turquoise border */
+}
+
+/* stylize the image */
+img
+{
+    display: block;
+    margin: 0 auto;
+}
